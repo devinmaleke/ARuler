@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16BA89FF2A176D3300056677 /* TestingTiga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTiga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BA89FF2A176D3300056677 /* ARuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BA8A022A176D3300056677 /* TestingTigaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTigaApp.swift; sourceTree = "<group>"; };
 		16BA8A042A176D3300056677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16BA8A062A176D3400056677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		16BA8A002A176D3300056677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16BA89FF2A176D3300056677 /* TestingTiga.app */,
+				16BA89FF2A176D3300056677 /* ARuler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16BA89FE2A176D3300056677 /* TestingTiga */ = {
+		16BA89FE2A176D3300056677 /* ARuler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16BA8A0D2A176D3400056677 /* Build configuration list for PBXNativeTarget "TestingTiga" */;
+			buildConfigurationList = 16BA8A0D2A176D3400056677 /* Build configuration list for PBXNativeTarget "ARuler" */;
 			buildPhases = (
 				16BA89FB2A176D3300056677 /* Sources */,
 				16BA89FC2A176D3300056677 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TestingTiga;
+			name = ARuler;
 			productName = TestingTiga;
-			productReference = 16BA89FF2A176D3300056677 /* TestingTiga.app */;
+			productReference = 16BA89FF2A176D3300056677 /* ARuler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16BA89FE2A176D3300056677 /* TestingTiga */,
+				16BA89FE2A176D3300056677 /* ARuler */,
 			);
 		};
 /* End PBXProject section */
@@ -267,8 +267,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestingTiga/Preview Content\"";
+				DEVELOPMENT_TEAM = A353S377CB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +297,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestingTiga/Preview Content\"";
+				DEVELOPMENT_TEAM = A353S377CB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16BA8A0D2A176D3400056677 /* Build configuration list for PBXNativeTarget "TestingTiga" */ = {
+		16BA8A0D2A176D3400056677 /* Build configuration list for PBXNativeTarget "ARuler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16BA8A0E2A176D3400056677 /* Debug */,
